@@ -1,0 +1,85 @@
+/* Reset some basic styles */
+* {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body and general layout */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-style: italic;
+  }
+  
+  section {
+    margin: 40px 30;
+  }
+  
+  
+  .bio {
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    margin: 5px;
+    padding: 5px 15px;
+    border-radius: 5px;
+  }
+  
+  .project {
+    margin: 20px 0;
+  }
+  
+  .project img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin-top: 10px;
+  }
+  
+  #resume a {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  #contact p {
+    margin: 10px 0;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 40px;
+  }
+  
